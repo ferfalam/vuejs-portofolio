@@ -6,7 +6,7 @@
           class="col-xl-6 col-bg-6 col-md-6 col-sm-12 pbelow"
           style="color: white;"
         >
-          <span>© 2021 Copyright: Mahy Mohab</span>
+          <span>© 2021 Copyright: Farid AMOUSSA</span>
         </div>
 
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12">
@@ -23,12 +23,12 @@
             >
               <i class="fab fa-github"></i>
             </button>
-            <button
+            <!-- <button
               class="btn btn-outline-secondary mx-2"
               @click="open('behance')"
             >
               <i class="fab fa-behance"></i>
-            </button>
+            </button> -->
             <button
               class="btn btn-outline-secondary mx-2"
               @click="open('resume')"

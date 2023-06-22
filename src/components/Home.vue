@@ -17,7 +17,7 @@
           <span
             class="home-title"
             :class="{ pgray: !nightMode, 'text-light': nightMode }"
-            >Welcome to my portfolio!</span
+            >Bienvenue sur mon Portfolio!</span
           >
           <div>
             <p v-html="description"></p>
@@ -37,13 +37,13 @@
             >
               <i class="fab fa-github"></i>
             </button>
-            <button
+            <!-- <button
               class="btn btn-outline-secondary mx-2"
               @click="open('behance')"
               v-tooltip.bottom="'behance'"
             >
               <i class="fab fa-behance"></i>
-            </button>
+            </button> -->
             <button
               class="btn btn-outline-secondary mx-2"
               @click="open('resume')"
@@ -115,7 +115,7 @@ img {
   max-width: 800px;
   max-height: 500px;
   margin-top: 80px;
-  transform: rotateY(180deg);
+  /* transform: rotateY(180deg); */
 }
 
 @media only screen and (max-width: 580px) {
