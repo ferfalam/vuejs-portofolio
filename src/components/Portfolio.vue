@@ -26,7 +26,7 @@
       />
 
       <vue-tabs :activeTextColor="!nightMode ? '#535A5E' : '#dfdfdf'">
-      <v-tab title="design">
+      <v-tab title="Design">
           <div class="row">
             <div
               v-for="(design, idx) in desgin_info"
@@ -72,14 +72,14 @@
                   class="btn-sm btn btn-outline-secondary no-outline"
                   @click.prevent="showDesignModalFn(design)"
                 >
-                  read more
+                  Voir plus...
                 </button>
               </div>
             </div>
           </div>
           <br />
         </v-tab>
-        <v-tab title="development">
+        <v-tab title="Developpement">
           <br />
           <div class="row">
             <div
